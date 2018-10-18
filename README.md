@@ -22,5 +22,7 @@ model.DECTING()#人脸识别将却请的人信息保存到mysql中
 model.ADD_SQL()#添加新的人并把人脸的(128,)的特征编码保存到sql_face表中
 
 
+注意：shape_predictor_68_face_landmarks.dat缺少这个自己可以在网上下载
+
 model.DELETE()#删除学生的记录
 真心的希望有大佬带带我！
