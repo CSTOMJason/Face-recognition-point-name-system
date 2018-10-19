@@ -133,6 +133,12 @@ class DlibResnet_face_recognition_class():
                 temp+=1
                 com_dat=cur_dat+"_absence"
                 cursor.execute("update course_inf set %s=%d where id_stu='%s'"%(com_dat,temp,stu_id))
+		#求学生旷课的总和
+                cursor.execute("select total from course_inf where id_stu='%s'"%(stu_id))
+                total=int(cursor.fetchall()[0][0])
+                total+=1;
+                cursor.execute("update course_inf set total=%d where id_stu='%s'"%(total,stu_id))
+		
             connection.commit()
     
     #查询缺课人的相关信息
