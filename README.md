@@ -31,6 +31,6 @@ model.DELETE()#删除学生的记录
 
 
 
-![image](http://github.com/CSTOMJason/Face-recognition-point-name-system/edit/master/Architecture.jpg)
+![image](https://github.com/CSTOMJason/Face-recognition-point-name-system/blob/master/Architecture.jpg)
 
 
