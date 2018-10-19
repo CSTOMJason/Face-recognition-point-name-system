@@ -27,3 +27,10 @@ model.ADD_SQL()#添加新的人并把人脸的(128,)的特征编码保存到sql_
 model.DELETE()#删除学生的记录
 真心的希望有大佬带带我！
 缺点：网页部分还没有完善在完善
+
+
+
+
+![image](http://github.com/CSTOMJason/Face-recognition-point-name-system/edit/master/Architecture.jpg)
+
+
